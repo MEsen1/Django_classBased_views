@@ -1,9 +1,9 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">TODO App</h1>
+<h1 align="center">Class-based-views</h1>
 
 <div align="center">
-  <h3>
+  <!-- <h3>
     <a href="https://{your-demo-link.your-domain}">
       Demo
     </a>
@@ -12,7 +12,7 @@
       Project
     </a>
  
-  </h3>
+  </h3> -->
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -60,7 +60,7 @@ $ git clone https://github.com/aaron-clarusway/django_TODO_APPS.git
 $ python manage.py runserver
 ```
 
-## Acknowledgements
+<!-- ## Acknowledgements
 
 - Information for your projects
 
@@ -70,4 +70,4 @@ $ python manage.py runserver
 - GitHub [@your-username](https://{github.com/your-usermame})
 
 - Linkedin [@your-linkedin](https://{linkedin.com/your-username})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Twitter [@your-twitter](https://{twitter.com/your-username}) -->
