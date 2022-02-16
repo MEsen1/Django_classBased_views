@@ -1,19 +1,18 @@
 {% extends 'fscohort/base.html' %} {% block content %}
-
-<h2>Student Detail</h2>
-
-<div>
-    <img src="{{student.image.url}}" alt="" />
-</div>
-<div>{{student.first_name}}</div>
-<div>{{student.last_name}}</div>
-<div>{{student.email}}</div>
-<div>{{student.phone}}</div>
-<div>{{student.number}}</div>
-
-<div>
-    <a href="{% url 'update' student.id %}">Edit</a>
-    <a href="{% url 'delete' student.id %}">Delete</a>
+<div class="row d-flex justify-content-center">
+  <div class="card" style="width: 18rem">
+    <img src="{{student.image.url}}" class="card-img-top" alt="" />
+    <div class="card-body">
+      <h5 class="card-title">Student Details</h5>
+      <p class="card-text">{{student.first_name}}</p>
+      <p class="card-text">{{student.last_name}}</p>
+      <p class="card-text">{{student.email}}</p>
+      <p class="card-text">{{student.phone}}</p>
+      <p class="card-text">{{student.number}}</p>
+      <a href="{% url 'update' student.id %}" class="btn btn-primary">Edit</a>
+      <a href="{% url 'delete' student.id %}" class="btn btn-primary">Delete</a>
+    </div>
+  </div>
 </div>
 
 {% endblock content %}
